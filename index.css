@@ -1,0 +1,36 @@
+body{
+    background-image: url(./images/rainwindow.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#comment{
+    margin-top: 20%;
+    margin-left: 35%;
+    width: 400px;
+    height:200px;
+    padding: 50px;
+    color: #999;
+    text-align: center; 
+    font-family: "Helvetica Neue","fangsong";
+    font-size: 20px;
+    background: rgba(233, 240, 233, 0.05);
+    border-radius: 10px;
+}
+
+#comment h1{
+    font-size: 18px;
+}
+
+#comment .item{
+    color: white;
+    font-size: 24px;
+}
+
+#comment a{
+    margin:5px;
+    padding:5px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}

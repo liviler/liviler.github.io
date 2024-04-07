@@ -1,1 +1,0 @@
-我还没有设计出一个漂亮的首页,先去看看[我的博客](https://liviler.github.io/blog/)吧!
