@@ -2,13 +2,15 @@ body{
     background-image: url(./images/rainwindow.jpg);
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
 }
 
 #comment{
-    margin-top: 20%;
-    margin-left: 35%;
-    width: 400px;
-    height:200px;
+    width: 20%;
+    height:10%;
     padding: 50px;
     color: #999;
     text-align: center; 
@@ -33,4 +35,16 @@ body{
     color: white;
     text-decoration: none;
     border-bottom: 2px solid white;
+}
+@media screen and (max-width: 800px) {
+    #comment{
+        width: 40%;
+        height: 100px;
+    }
+    #comment h1{
+        font-size: 16px;
+    }
+    #comment .item{
+        font-size: 18px;
+    }
 }
